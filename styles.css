@@ -307,10 +307,35 @@ h3 {
   padding: 20px;
 }
 
+.focus-card-header {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.focus-card-header img {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  box-shadow: 0 10px 24px rgba(17, 24, 39, 0.12);
+}
+
+.focus-card-header h3 {
+  margin-bottom: 0;
+}
+
 .focus-list p,
 .timeline-content p,
 .credential-grid p {
   color: var(--muted);
+}
+
+.focus-list a {
+  color: var(--green);
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .work-section {
