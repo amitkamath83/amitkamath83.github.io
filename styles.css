@@ -613,6 +613,12 @@ h3 {
     min-height: auto;
   }
 
+  h1 {
+    max-width: 720px;
+    font-size: clamp(2.45rem, 7.2vw, 3.65rem);
+    line-height: 1.04;
+  }
+
   .metric-grid,
   .capability-grid,
   .credential-grid {
@@ -663,7 +669,9 @@ h3 {
   }
 
   h1 {
-    font-size: clamp(2.65rem, 15vw, 4.1rem);
+    max-width: 100%;
+    font-size: clamp(2.25rem, 10.5vw, 3rem);
+    line-height: 1.06;
   }
 
   .metric-grid,
