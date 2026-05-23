@@ -127,7 +127,7 @@ p {
 h1 {
   max-width: 760px;
   margin-bottom: 24px;
-  font-size: clamp(3rem, 5.8vw, 5.25rem);
+  font-size: clamp(2.7rem, 5vw, 4.75rem);
   line-height: 1;
   letter-spacing: 0;
   text-wrap: balance;
@@ -644,7 +644,7 @@ h3 {
 
   h1 {
     max-width: 620px;
-    font-size: clamp(3rem, 5.2vw, 4.4rem);
+    font-size: clamp(2.6rem, 4.6vw, 3.9rem);
   }
 
   .profile-panel {
