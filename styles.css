@@ -308,15 +308,16 @@ h3 {
 }
 
 .focus-card-header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 20% 1fr;
   gap: 12px;
   align-items: center;
   margin-bottom: 8px;
 }
 
 .product-icon {
-  flex: 0 0 auto;
   display: block;
+  justify-self: start;
   width: 40px !important;
   height: 40px !important;
   max-width: 40px !important;
