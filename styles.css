@@ -309,7 +309,7 @@ h3 {
 
 .focus-card-header {
   display: grid;
-  grid-template-columns: 20% 1fr;
+  grid-template-columns: 40px 1fr;
   gap: 12px;
   align-items: center;
   margin-bottom: 8px;
