@@ -670,7 +670,7 @@ h3 {
 
   h1 {
     max-width: 100%;
-    font-size: clamp(2.25rem, 10.5vw, 3rem);
+    font-size: clamp(2rem, 9.5vw, 2.7rem);
     line-height: 1.06;
   }
 
